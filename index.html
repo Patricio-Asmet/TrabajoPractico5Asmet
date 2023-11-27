@@ -10,6 +10,24 @@
     <title>Trabajo Práctico Nro.5</title>
 </head>
 <body>
-    <script src="./js/ejercicio1.js"></script>
+    <div class="container mt-5">
+        <div class="text-center">
+          <h1>Juego de Adivinanza</h1>
+          <button id="comenzarBtn" class="btn btn-primary">Comenzar el juego</button>
+        </div>
+        
+        <div id="juego" style="display: none;">
+          <hr>
+          <label for="numeroInput">Ingresa un número:</label>
+          <input type="number" id="numeroInput" class="form-control" required>
+          <button id="enviarBtn" class="btn btn-success mt-2">Enviar</button>
+        </div>
+      </div>
+      
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+     <script src="./js/ejercicio1.js"></script>
 </body>
 </html>
