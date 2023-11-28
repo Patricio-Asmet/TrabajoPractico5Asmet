@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var numeroMagico;
+    let numeroMagico;
 
     $("#comenzarBtn").click(function () {
       numeroMagico = Math.floor(Math.random() * 100) + 1;
@@ -9,7 +9,7 @@ $(document).ready(function () {
     });
 
     $("#enviarBtn").click(function () {
-      var numeroUsuario = $("#numeroInput").val();
+      let numeroUsuario = $("#numeroInput").val();
       
       if (numeroUsuario == numeroMagico) {
         alert("¡Felicidades! Adivinaste el número.");
